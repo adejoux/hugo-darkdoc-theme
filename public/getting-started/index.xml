@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting-starteds on myproject</title>
+    <link>http://localhost:1313/getting-started/</link>
+    <description>Recent content in Getting-starteds on myproject</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 20 Apr 2016 10:13:26 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>installation</title>
+      <link>http://localhost:1313/getting-started/installation/</link>
+      <pubDate>Wed, 20 Apr 2016 10:13:26 +0200</pubDate>
+      
+      <guid>http://localhost:1313/getting-started/installation/</guid>
+      <description>
+
+&lt;h1 id=&#34;installation-steps:4c40a97dcf30b230e73eabba1323c21c&#34;&gt;installation steps&lt;/h1&gt;
+
+&lt;p&gt;Here how to install the tool.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

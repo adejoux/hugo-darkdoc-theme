@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demos on myproject</title>
+    <link>http://localhost:1313/demo/</link>
+    <description>Recent content in Demos on myproject</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 20 Apr 2016 10:12:55 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/demo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>live</title>
+      <link>http://localhost:1313/demo/live/</link>
+      <pubDate>Wed, 20 Apr 2016 10:12:55 +0200</pubDate>
+      
+      <guid>http://localhost:1313/demo/live/</guid>
+      <description>
+
+&lt;h1 id=&#34;live-demo-available:362737a8753f6a66cb22f77bf7cf66c8&#34;&gt;live demo available&lt;/h1&gt;
+
+&lt;p&gt;Here a live demo.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
