@@ -1,8 +1,8 @@
 name = "Darkdoc"
 license = "MIT"
-licenselink = "https://github.com/adejoux/hugo-darkdoc/blob/master/LICENSE.md"
+licenselink = "https://github.com/adejoux/hugo-darkdoc-theme/blob/master/LICENSE.md"
 description = "bootstrap theme for documentation"
-homepage = "https://github.com/adejoux/hugo-darkdoc"
+homepage = "https://github.com/adejoux/hugo-darkdoc-theme"
 tags = ["bootstrap", "documentation", "responsive"]
 features = ["", ""]
 min_version = 0.14
