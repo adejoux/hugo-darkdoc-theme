@@ -11,7 +11,6 @@ Inside the folder of your Hugo site run:
     $ mkdir themes
     $ cd themes
     $ git clone https://github.com/adejoux/hugo-darkdoc-theme
-    $ mv hugo-darkdoc-theme darkdoc
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 

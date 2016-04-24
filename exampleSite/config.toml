@@ -1,6 +1,6 @@
 baseurl = "http://myproject.org/"
 title = "myproject"
-#theme = "darkdoc"
+theme = "hugo-darkdoc-theme"
 metadataformat = "yaml"
 pygmentsUseClasses = true
 
