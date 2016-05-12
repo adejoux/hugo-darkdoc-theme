@@ -13,9 +13,9 @@
         {{ partial "menu" . }}
       </div>
       <div class="col-lg-9 col-md-9 col-sm-8">
-        <div>
-          <h1 id="main">Page not found</h1>
-        </div>
+          {{ range first 10 (where .Data.Pages "Type" "news") }}
+            {{ .Render "li" }}
+          {{ end }}
       </div>
     </div>
   <div class="row">
@@ -25,5 +25,6 @@
   </div>
 
 </div>
+
 </html>
 {{ partial "footer_js" . }}
