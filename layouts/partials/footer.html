@@ -6,4 +6,7 @@
     </div>
   </div>
 </footer>
+{{ if isset .Site.Params "Piwik" }}
+  {{ partial "piwik" . }}
+{{ end }}
 </body>
