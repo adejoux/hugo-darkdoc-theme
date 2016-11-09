@@ -42,7 +42,7 @@ This theme use [fancybox](http://fancyapps.com/fancybox/) to display gallery ima
 
 The main menu entry are specified in [`config.toml`](//github.com/adejoux/hugo-darkdoc-theme/blob/master/exampleSite/config.toml):
 ~~~toml
-[menu.main]]
+[[menu.main]]
 	name   = "Demo"
 	url    = "demo/"
 	weight = 0
