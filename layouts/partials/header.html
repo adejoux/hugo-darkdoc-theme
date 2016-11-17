@@ -25,7 +25,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="/{{ with .Site.Params.favicon }}{{ . }}{{ else }}images/favicon.ico{{ end }}">
     <link rel="icon" type="image/x-icon" href="/{{ with .Site.Params.favicon }}{{ . }}{{ else }}images/favicon.ico{{ end }}">
 
-    {{ with .RSSlink }}
+    {{ with .RSSLink }}
     <link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
     <link href="{{ . }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
     {{ end }}
