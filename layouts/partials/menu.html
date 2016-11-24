@@ -1,9 +1,8 @@
 {{ $currentNode := . }}
 {{ $isCurrent := eq .Permalink (.URL | absURL | printf "%s") }}
 <div class="list-group table-of-contents">
-  {{ range first 10 (where .Site.Pages "Section" "news") }}
-        <a class="list-group-item" href="/news"><b>News</b></a>
-  {{ end }}
+  <a class="list-group-item" href="/news"><b>News</b></a>
+
   {{ range .Site.Menus.main.ByWeight }}
     <a class="list-group-item" href=#><b>{{ .Name }}</b></a>
     {{ if .HasChildren }}
