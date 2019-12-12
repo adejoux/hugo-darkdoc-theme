@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8"  {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }}>
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
-    {{ .Hugo.Generator }}
+    {{ hugo.Generator }}
 
     {{ with .Site.Params.description }}
     <meta name="description" content="{{ . }}">
@@ -12,7 +12,7 @@
     {{ with .Site.Params.author }}
     <meta name="author" content="{{ . }}">
     {{ end }}
-    {{.Hugo.Generator}}
+    {{hugo.Generator}}
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:url" content="{{ .Permalink }}">
@@ -25,10 +25,9 @@
     <link rel="shortcut icon" type="image/x-icon" href="/{{ with .Site.Params.favicon }}{{ . }}{{ else }}images/favicon.ico{{ end }}">
     <link rel="icon" type="image/x-icon" href="/{{ with .Site.Params.favicon }}{{ . }}{{ else }}images/favicon.ico{{ end }}">
 
-    {{ with .RSSLink }}
-    <link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
-    <link href="{{ . }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
-    {{ end }}
+    {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
     <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="/css/custom.css">
     <link rel="stylesheet" href="/css/pygments.css">
